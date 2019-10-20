@@ -1,27 +1,7 @@
 
 require 'pry'   
-require_relative './lib/app'
-class Event
-  def perform
-  end
-end
-binding.pry
-  
+require_relative './lib/router'
 
-require 'pry'   
-require_relative './lib/app'
-class Event
-  def perform
-  end
-end
-binding.pry
-  
+#binding.pry
 
-require 'pry'   
-require_relative './lib/app'
-class Event
-  def perform
-  end
-end
-binding.pry
-  
+Router.new.perform
